@@ -140,6 +140,11 @@ a.nav-link:hover {
   height: 18vw;
 }
 
+.photo-row-mobile {
+  width: auto;
+  height: 50vw;
+}
+
 hr {
     border: 0;
     height: 0; /* Firefox... */
