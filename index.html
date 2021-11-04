@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mini-site</title>
+  <!-- osano cookie consent -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+  <!-- Bootstrap v 5.0 Stylesheets & Scripts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@200&family=Quicksand&family=Barlow:wght@400&family=Sacramento&display=swap" rel="stylesheet">
+  <!-- Local Stylesheets & Scripts -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="JS/JS.js"></script>
+  <link rel="icon" href="favicon.ico">
+</head>
+<!-- end of head -->
+
+
+<!-- beginning of body-->
+
+<body data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="0" tabindex="0">
+
+  <!-- desktop header/navigation -->
+  <header class="d-none d-md-block d-lg-block d-xl-block">
+
+  </header>
+
+  <nav class="container-fluid justify-content-between sticky-top d-none d-md-block d-lg-block d-xl-block" id="nav">
+    <div class="row">
+      <div class="brand col-6 text-left px-5 py-2" id="brand">
+        <!--  <a href="index.html"><img src="images/papadukeslogo.png" alt=""></a> -->
+        <h1>Papa Duke's Deli</h1>
+      </div>
+      <div class="col text-end align-self-center px-5 py-2">
+        <ul class="nav" id="nav">
+          <li class="navbar-item active">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- mobile/responsive navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light-bg d-block d-sm-block d-md-none d-lg-none d-xl-none">
+    <div class="container-fluid">
+      <a class="navbar-brand p-4" href="index.html">Papa Duke's Deli</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="navbar-item active">
+            <a class="nav-link ms-5 active" href="#">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link ms-5" href="#services">Services</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link ms-5" href="#about">About</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link ms-5" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- welcome -->
+  <div class=" container-fluid p-5 " id="welcome">
+    <div class="row">
+      <div class="col-md-5 px-5 text-center align-self-center">
+        <p>WELCOME to Wilton Manors' go-to friendly neighborhood spot for mouth-watering sandwiches made with fresh in-house ingredients.</p>
+        <br>
+        <p>Your place for gathering, sharing, laughing, enjoying, and relaxing with the community.</p>
+        <br>
+        <button class="button-green text-uppercase" type="button" name="button">Check out our menu</button>
+        <br><br><br>
+        <button class="button-green text-uppercase" type="button" name="button">Call & order now</button>
+        <br><br><br>
+      </div>
+      <div class="col-md-7 px-5 text-center">
+        <img class="intro img-fluid" src="images/p5.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="cta-1 container-fluid p-5" id="cta-1">
+    <div class="row gx-5">
+      <div class="col-md text-center">
+        <h2 class="text-center">Meet Our Signature Sandwiches</h2>
+        <p> <em>All served with a pickle and side of potato salad, fennel salad, orzo salad, or coleslaw</em> </p>
+        <br>
+        <div class="row py-3">
+          <div class="col-md">
+            <h3>Drunken Brisket</h3>
+            <p>Slow-cooked brisket with pickled vegetables, a spicy pepper tapenade and a barbecue sauce</p>
+          </div>
+          <div class="col-md">
+            <h3>Corned Beef</h3>
+            <p>Low and slow cooked with kraut, swiss, and thousand island dressing</p>
+          </div>
+          <div class="col-md">
+            <h3>The Italian</h3>
+            <p>Pepperoni, salami, capicola, ham, provolone, sweet and hot peppers, onion, and Papa Duke's Dressing</p>
+          </div>
+          <div class="col-md">
+            <h3>BLT</h3>
+            <p>Baked bacon, lettuce, tomato, mayo with american cheese, and your choice of chicken or turkey</p>
+          </div>
+          <div class="col-md">
+            <h3>Fresh Mozzarella</h3>
+            <p>Tomato, lettuce, avocado, and choice of pesto or balsamic reduction</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center text-center pt-5">
+      <div class="col-md-5">
+        <button class="button-white" type="button" name="button">Discover our entire menu!</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-5" id="">
+    <div class="row g-3">
+      <div class="col-md-12 text-center">
+        <h2 class="text-center">What are people saying?</h2>
+      </div>
+      <div class="row">
+        <div class="col-md ">
+          <div class="">
+            <p>"Papa Duke’s Deli, a showcase for grab-and-go meals where the Drunken Brisket sandwich on James Beard Award-winning bread is king."<br><br><br><em>- Sun Sentinel</em></p>
+            <img class="news" src="images/sunsentinel.png" alt="">
+          </div>
+        </div>
+        <div class="col-md ">
+          <p>"In Wilton Manors, Papa Duke’s will have you feeling like family. You’ll be drunk with happiness after the drunken brisket. It’s booze-free, but full of flavor."<br><br><em>- Miami News 7</em></p>
+          <img class="news" src="images/7newsmiami.png" alt="">
+        </div>
+        <div class="col-md align-self-start">
+          <p class=""><strong>We want to hear from you!</strong></p>
+          <p>Let us know what you think about our sandwiches and tell us about your experience by leaving us a review below.</p>
+          <br>
+          <button class="button-green" type="button" name="button">Leave us a review</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-5" id="cta-1">
+    <div class="row justify-content-center">
+      <div class="col-md-4 text-center align-self-center brick py-4">
+        <h2 class="text-center">Weekly Specials</h2>
+      </div>
+      <div class="col-md-4 text-center align-self-center py-4">
+        <div class="row">
+          <div class="col self-align-center">
+            <p><strong>WEDNESDAYS</strong></p>
+            <p>fresh pastrami sandwiches</p>
+            <p><strong>FRIDAYS</strong></p>
+            <p>fresh burrata sandwiches</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center text-center">
+    <div class="col-md-5">
+      <button class="" type="button" name="button">CALL & ORDER NOW</button>
+      <br><br><br><br>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center m-0 p-0" id="photos-1">
+    <div class="row text-center m-0 photos-1 justify-content-center">
+      <img class="photo-row img-fluid px-0" src="images/p1.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p2.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p4.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p3.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p5.png" alt="">
+    </div>
+  </div>
+
+
+
+  <!-- top container -->
+  <div class="top-container about container-fluid p-5" id="about">
+    <div class="row">
+      <div class="row gx-3 py-3">
+        <div class="col-md-6">
+          <h3 class="">Our Mission</h3>
+          <p>We strive to be your friendly neighborhood spot, not just for eating but for gathering, sharing, laughing, enjoying, taking a break.</p>
+          <p>Our space welcomes everyone!</p>
+          <p>Aside from sandwiches, Papa Duke's strives to provide employment and livable wages to local workers, keeping talent in the area and supporting our local community. We also donate bread and stuff.</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Our Story</h3>
+          <p>Whether you're stopping in for lunch to take a relaxing break from your hectic schedule, or you're looking to cater your next gathering, the Papa Duke's Team is here for you!</p>
+          <h3 class="">Who is Papa Duke?</h3>
+          <p>Papa Duke's Deli is named after Chip's legendary father, Duke. Learn more about Papa Duke and his legacy in the deli where we have a mural dedicated to his story.</p>
+        </div>
+      </div>
+      <div class="row gy-3">
+        <h3 class="text-center pb-4">Meet Our Dedicated Team</h3>
+        <br>
+        <div class="col-md-3 text-center">
+          <img class="img-round" src="images/chip.png" alt="">
+          <p class="py-3">Chip Meeker<br>Owner & Sandwich Connoisseur</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img class="img-round" src="images/chip.png" alt="">
+          <p class="py-3">Chip Meeker<br>Owner & Sandwich Connoisseur</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img class="img-round" src="images/chip.png" alt="">
+          <p class="py-3">Chip Meeker<br>Owner & Sandwich Connoisseur</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img class="img-round" src="images/chip.png" alt="">
+          <p class="py-3">Chip Meeker<br>Owner & Sandwich Connoisseur</p>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-12 text-center">
+          <h3 class="text-center">Meet Our Community Partners</h3>
+        </div>
+        <div class="row">
+          <div class="col-md text-center">
+            <div class="">
+              <p>Taste of the Island</p>
+              <img class="news" src="images/sunsentinel.png" alt="">
+            </div>
+            <br>
+          </div>
+          <div class="col-md text-center">
+            <p>Poverello Thrift Store</p>
+            <img class="news" src="images/7newsmiami.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-5 " id="">
+
+  </div>
+
+  <div class="row text-center py-3">
+    <p><em>Interested in working with us? We're always looking to grow our team & community partners. Contact us below!</em></p>
+  </div>
+
+  <div class="justify-content-center text-center">
+    <i class="bi bi-chevron-compact-down"></i><i class="bi bi-chevron-compact-down"></i><i class="bi bi-chevron-compact-down"></i>
+    <br><br><br>
+  </div>
+
+  <div class="container-fluid text-center m-0 p-0" id="photos-1">
+    <div class="row text-center m-0 photos-1 justify-content-center">
+      <img class="photo-row img-fluid px-0" src="images/p1.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p2.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p4.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p3.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p5.png" alt="">
+    </div>
+  </div>
+
+
+  <!-- bottom container -->
+  <div class="bottom-container container-fluid p-5 contact" id="contact">
+    <div class="row gx-5  justify-content-center">
+      <div class="col-md-5">
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.3593703845913!2d-80.14272198495668!3d26.152423198700205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d901c3fff99437%3A0xfa3b72672a2dff7d!2sPapa%20Duke&#39;s%20Deli!5e0!3m2!1sen!2sus!4v1636024210613!5m2!1sen!2sus"
+            width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <h3 class="">Come Visit Us</h3>
+        <p>1952 Wilton Drive<br>Wilton Manors, FL 33334</p>
+        <div class="row">
+          <div class="col align-content-start">
+            <p><strong>Monday-Friday</strong></p>
+            <p><strong>Saturday</strong></p>
+            <p><strong>Sunday</strong></p>
+          </div>
+          <div class="col align-content-end">
+            <p>7 AM - 4 PM</p>
+            <p>8 AM - 3 PM</p>
+            <p>CLOSED</p>
+          </div>
+        </div>
+        <br>
+        <h3 class="">Get In Touch</h3>
+        <div class="row">
+          <div class="col align-content-start">
+            <p><strong>Call Us</strong></p>
+            <p><strong>Email Us</strong></p>
+          </div>
+          <div class="col align-content-end">
+            <p>123-456-7890</p>
+            <p>email@email.us</p>
+          </div>
+        </div>
+        <p><br></p>
+        <p><br></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- desktop footer -->
+  <div class="container-fluid footer-desktop p-5 d-none d-md-block d-lg-block d-xl-block">
+    <div class="row py-4 px-5">
+      <div class="col-sm-3 footer-info">
+        <p>Papa Duke's Deli<br>
+          1952 Wilton Drive <br>
+          Wilton Manors, FL 33334</p>
+        <p>© 2021 Papa Duke’s Deli All Rights Reserved</p>
+      </div>
+      <div class="col-sm-2 social text-center">
+        <i class="bi bi-facebook"></i>
+      </div>
+      <div class="col-sm-2 social text-center">
+        <i class="bi bi-envelope"></i>
+      </div>
+      <div class="col-sm-2 social text-center">
+        <i class="bi bi-instagram"></i>
+      </div>
+      <div class="col-sm-3 text-end">
+        <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Link</a><br>
+        <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Link</a><br>
+        <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Link</a><br>
+        <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Private Policy</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile/responsive footer -->
+  <div class="container-fluid footer-mobile d-block d-sm-block d-md-none d-lg-none d-xl-none">
+    <div class="row">
+      <div class="social py-3 text-center">
+        <i class="bi bi-facebook social-link"></i>
+        <p><a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Find Us on Facebook</a></p>
+        <i class="bi bi-envelope social-link"></i>
+        <p><a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Send Us an Email</a></p>
+        <i class="bi bi-instagram social-link"></i>
+        <p><a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Find Us on Instagram</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col py-3 ms-3 footer-info">
+        <p>Papa Duke's Deli<br>
+          1952 Wilton Drive <br>
+          Wilton Manors, FL 33334</p>
+      </div>
+      <div class="col py-3 me-3 text-end">
+        <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Link</a><br>
+        <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Link</a><br>
+        <a class="footer-link" href="#" target="_blank" rel="noopener noreferrer">Private Policy</a>
+      </div>
+    </div>
+    <div class="m-auto footer-mobile row text-center">
+      <p>© 2021 Papa Duke’s Deli All Rights Reserved</p>
+    </div>
+  </div>
+</body>
+<!-- /end of body -->
+
+</html>
