@@ -27,9 +27,7 @@
 
   <!-- desktop header/navigation -->
   <header class="d-none d-md-block d-lg-block d-xl-block">
-
   </header>
-
   <nav class="container-fluid justify-content-between sticky-top d-none d-md-block d-lg-block d-xl-block" id="nav">
     <div class="row">
       <div class="brand col-6 text-left px-5 py-2" id="brand">
@@ -55,33 +53,31 @@
     </div>
   </nav>
 
-
-
-  <!-- mobile/responsive navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light-bg d-block d-sm-block d-md-none d-lg-none d-xl-none">
-    <div class="container-fluid">
-      <a class="navbar-brand p-4" href="index.html">Papa Duke's Deli</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  <!-- mobile nav -->
+  <header class="d-block d-sm-block d-md-none d-lg-none d-xl-none text-center pt-3">
+    <h1>Papa Duke's Deli</h1>
+  </header>
+  <nav class="container-fluid justify-content-between sticky-top d-block d-sm-block d-md-none d-lg-none d-xl-none" id="nav">
+    <div class="row">
+      <div class="col text-end align-self-center px-5 py-2">
+        <ul class="nav" id="nav">
           <li class="navbar-item active">
-            <a class="nav-link ms-5 active" href="#">Home</a>
+            <a class="nav-link active" href="index.html">Home</a>
           </li>
           <li class="navbar-item">
-            <a class="nav-link ms-5" href="#services">Services</a>
+            <a class="nav-link" href="#">Menu</a>
           </li>
           <li class="navbar-item">
-            <a class="nav-link ms-5" href="#about">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="navbar-item">
-            <a class="nav-link ms-5" href="#contact">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
 
 
 
@@ -149,17 +145,17 @@
         <h2 class="text-center">What are people saying?</h2>
       </div>
       <div class="row">
-        <div class="col-md ">
+        <div class="col-md py-5">
           <div class="">
             <p>"Papa Duke’s Deli, a showcase for grab-and-go meals where the Drunken Brisket sandwich on James Beard Award-winning bread is king."<br><br><br><em>- Sun Sentinel</em></p>
             <img class="news" src="images/sunsentinel.png" alt="">
           </div>
         </div>
-        <div class="col-md ">
+        <div class="col-md py-5">
           <p>"In Wilton Manors, Papa Duke’s will have you feeling like family. You’ll be drunk with happiness after the drunken brisket. It’s booze-free, but full of flavor."<br><br><em>- Miami News 7</em></p>
           <img class="news" src="images/7newsmiami.png" alt="">
         </div>
-        <div class="col-md align-self-start">
+        <div class="col-md align-self-start py-5">
           <p class=""><strong>We want to hear from you!</strong></p>
           <p>Let us know what you think about our sandwiches and tell us about your experience by leaving us a review below.</p>
           <br>
@@ -265,33 +261,22 @@
     </div>
   </div>
 
-  <div class="container-fluid p-5 " id="">
-
-  </div>
-
-  <div class="row text-center py-3">
+  <div class="row text-center">
     <p><em>Interested in working with us? We're always looking to grow our team & community partners. Contact us below!</em></p>
   </div>
 
   <div class="justify-content-center text-center">
+    <br><br><br>
     <i class="bi bi-chevron-compact-down"></i><i class="bi bi-chevron-compact-down"></i><i class="bi bi-chevron-compact-down"></i>
     <br><br><br>
   </div>
 
-  <div class="container-fluid text-center m-0 p-0" id="photos-1">
-    <div class="row text-center m-0 photos-1 justify-content-center">
-      <img class="photo-row img-fluid px-0" src="images/p1.png" alt="">
-      <img class="photo-row img-fluid px-0" src="images/p2.png" alt="">
-      <img class="photo-row img-fluid px-0" src="images/p4.png" alt="">
-      <img class="photo-row img-fluid px-0" src="images/p3.png" alt="">
-      <img class="photo-row img-fluid px-0" src="images/p5.png" alt="">
-    </div>
-  </div>
+
 
 
   <!-- bottom container -->
   <div class="bottom-container container-fluid p-5 contact" id="contact">
-    <div class="row gx-5  justify-content-center">
+    <div class="row gx-5 justify-content-center">
       <div class="col-md-5">
         <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
           <iframe
@@ -299,7 +284,7 @@
             width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-5 align-self-center">
         <h3 class="">Come Visit Us</h3>
         <p>1952 Wilton Drive<br>Wilton Manors, FL 33334</p>
         <div class="row">
@@ -326,9 +311,17 @@
             <p>email@email.us</p>
           </div>
         </div>
-        <p><br></p>
-        <p><br></p>
       </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center m-0 py-5 px-0" id="photos-1">
+    <div class="row text-center m-0 photos-1 justify-content-center">
+      <img class="photo-row img-fluid px-0" src="images/p1.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p2.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p4.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p3.png" alt="">
+      <img class="photo-row img-fluid px-0" src="images/p5.png" alt="">
     </div>
   </div>
 
